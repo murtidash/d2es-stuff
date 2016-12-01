@@ -47,6 +47,13 @@ BuffMe::BuffMe()
 	// No affect if already enchanted!
 	affects.push_back(AFFECT_ENERGYSHIELD);
 	buffs.push_back(D2S_ENERGYSHIELD);
+
+	
+	affects.push_back(AFFECT_FADE);
+	buffs.push_back(D2S_FADE);
+
+	affects.push_back(AFFECT_OAKSAGE);
+	buffs.push_back(D2S_OAKSAGE);
 }
 
 /// <summary>
